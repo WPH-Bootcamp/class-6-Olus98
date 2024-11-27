@@ -10,25 +10,25 @@
 
 .title-1 {
   // color: get-color('brand', '400');
-  color: map.get(map.get($types, 'brand'), '400');
+  color: map.get(map.get($colors, 'brand'), '400');
 }
 
 .title-2 {
   // color: get-color('warning', '600');
-  color: map.get(map.get($types, 'warning'), '600');
+  color: map.get(map.get($colors, 'warning'), '600');
 }
 
 .title-3 {
   // color: get-color('error', '500');
-  color: map.get(map.get($types, 'error'), '500');
+  color: map.get(map.get($colors, 'error'), '500');
 }
 
 .title-4 {
   // color: get-color('success', '700');
-  color: map.get(map.get($types, 'success'), '700');
+  color: map.get(map.get($colors, 'success'), '700');
 }
 
 .title-5 {
   // color: get-color('gray', '600');
-  color: map.get(map.get($types, 'gray'), '600');
+  color: map.get(map.get($colors, 'gray'), '600');
 }
