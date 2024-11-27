@@ -7,7 +7,7 @@
 // if they are not valid warn 'Invalid color type or level' and return null
 // null is a special value in Sass that means nothing, and it is used to represent the absence of a value, you need to return null if the type or level is not valid
 
-@mixin color($type, $level) {
+@function color($type, $level) {
   @if map.has-key($types, $type) and map.has-key($levels, $level) {
     @warn 'type or level valid';
   } @else {
